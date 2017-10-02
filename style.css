@@ -1,0 +1,267 @@
+body{
+  background-color: rgb(196, 199, 193);
+}
+*
+{
+  box-sizing: border-box;
+}
+.container1
+{
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 6px;
+  position: relative;
+  /*content:url(house.jpg);*/
+}
+
+.image1
+{
+  position: relative;
+}
+
+.image1 img
+{
+  width: 1500px;
+  height: 915px;
+}
+
+.image1 h1,h2
+{
+  position: absolute;
+  width: 100%;
+  color: rgb(67, 169, 182);
+  line-height: 200px;
+  margin: 200px 40px 40px 0px;
+  font-size: 60px;
+  padding: 65px;
+  margin-bottom: 30px;
+}
+
+h2
+{
+  font-size: 40px;
+}
+.logo{
+  position: relative;
+  top: 220px;
+  left: 50px;
+  z-index: 99999;
+  /*text-align: center;*/
+}
+.image1 img
+{
+  text-align: center;
+}
+
+.hamburger {
+  width: 40px;
+  height: 35px;
+  border: 0;
+  border-top: 5px solid #ffffff;
+  background: transparent;
+  position: relative;
+  top: 260px;
+  right: 700px;
+  transition: 0.3s transform linear;
+  z-index: 6;
+}
+
+.hamburger::before, .hamburger::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-top: 5px solid #ffffff;
+  transform: translateY(10px);
+}
+
+.hamburger::after {
+  transform: translateY(25px);
+  transition: 0.3s transform linear;
+}
+
+.hamburger:focus {
+  transform: rotate(45deg) translateY(5px);
+  border: none;
+}
+.hamburger:focus::after {
+  transform: rotate(-90deg) translateX(-10px);
+}
+
+h3
+{
+  color: white;
+  position: relative;
+  top: 145px;
+  left: 600px;
+  z-index: 99;
+  font-size: 25px;
+}
+.container2
+{
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 6px;
+  margin-left: 122px;
+  margin-right: auto;
+  margin-top: 40px;
+  position: relative;
+  /*content:url(house.jpg);*/
+  -webkit-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+  -moz-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+  box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+}
+
+.sideL
+{
+  width: 750px;
+  height: 700px;
+  float: left;
+  background-color: rgb(233, 231, 242);
+}
+.sideR
+{
+  width: 750px;
+  height: 700px;
+  background-image: url("image2.jpg");
+  float: left;
+}
+.sideR img{
+  width: 100%;
+  height: 100%;
+}
+p
+{
+
+  display: inline-block;
+  font-size: 59px;
+  margin-top: 260px;
+}
+span
+{
+  font-size: 39px;
+  color: rgb(96, 106, 107);
+  font-style: italic;
+}
+
+input[type=submit]
+{
+    width: 175px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-color: rgb(39, 113, 78);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-right: 260px;
+}
+
+.container3
+{
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 6px;
+  margin-left: 122px;
+  margin-right: auto;
+  margin-top: 40px;
+  position: relative;
+  /*content:url(house.jpg);*/
+  -webkit-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+  -moz-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+  box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+}
+.box1
+{
+  width: 25%;
+  height: 700px;
+  float: left;
+  background-color: rgb(233, 231, 242);
+}
+
+.box2
+{
+  width: 25%;
+  height: 700px;
+  float: left;
+  background-color: rgb(233, 231, 242);
+  transition: 0.5s ease-in-out;
+
+}
+
+.box2:hover
+{
+  background-color: rgb(126, 129, 136);
+}
+
+
+.box3
+{
+  width: 25%;
+  height: 700px;
+  float: left;
+  background-color: rgb(233, 231, 242);
+}
+.box4
+{
+  width: 25%;
+  height: 700px;
+  float: left;
+  background-color: rgb(233, 231, 242);
+}
+
+.pbox2
+{
+  margin-top: 2px;
+  color: rgb(37, 33, 36);
+  font-size: 30px;
+}
+.pbox2V
+{
+  visibility: hidden;
+}
+.pbox2V:hover
+{
+  visibility: visible;
+}
+.pbox3
+{
+  margin-top: 2px;
+  color: rgb(37, 33, 36);
+  font-size: 30px;
+}
+.pbox4
+{
+  margin-top: 2px;
+  color: rgb(37, 33, 36);
+  font-size: 30px;
+}
+
+.footer
+{
+  width: 100vw;
+  margin-bottom: 6px;
+  margin-left: 122px;
+  margin-right: auto;
+  margin-top: 40px;
+  position: relative;
+  /*content:url(house.jpg);*/
+  -webkit-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+  -moz-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+  box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
+}
+
+
+.pfooter
+{
+  max-width: 790px;
+  background-color: rgb(233, 231, 242);
+  float: left;
+  height: 300px;
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 10px;
+}
