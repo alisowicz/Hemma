@@ -4,9 +4,9 @@
   padding-top: 0;
   margin-top: 0;
 }
+
 *{
   font-family: Lato,Helvetica,Arial,sans-serif;
-  box-sizing: border-box;
 }
 
 .page-kamil {
@@ -18,9 +18,8 @@
   left: 0;
   right: 0;
   z-index: 9;
-  padding: 0px 50px;
+  padding: 25px;
   margin: 0;
-  margin-top: 40px;
   list-style: none;
   display: flex;
   background-color: transparent;
@@ -95,8 +94,6 @@ h3{
 
 .section__hemma{
   padding: 10px 0;
-  align-items: center;
-  justify-content: center;
   height: calc(100vh - 40px);
   display: flex;
   position: relative;
@@ -181,59 +178,6 @@ input[type=submit]{
   background-position: 50%;
 }
 
-.section__rooms {
-  padding: 10px 0;
-  height: calc(100vh - 40px);
-  display: flex;
-  -webkit-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
- -moz-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
- box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
-}
-
-.split3 {
-  flex: 1;
-}
-
-.split-right3 {
-  display: flex;
-  align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.section-header {
-  font-size: 45px;
-  margin-bottom: -20px;
-  font-family: "Playfair Display",Georgia,serif;
-
-}
-.subheading {
-  font-size: 30px;
-  font-style: italic;
-  color: rgb(184, 184, 184);
-  letter-spacing: -2px;
-  font-family: "Playfair Display",Georgia,serif;
-}
-
-input[type=submit]{
-    width: 90px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    background-color: rgb(88, 159, 100);
-    color: white;
-    border-radius: 5px;
-    font-size: 10px;
-    padding: 13px 0px;
-    cursor: pointer;
-    letter-spacing: 1px;
-}
-
-.split-left3 {
-  background-image: url('./imgroom.jpg');
-  background-size: cover;
-  background-position: 50%;
-}
-
 .section__news{
 padding: 10px 0;
 height: calc(50vh - 40px);
@@ -270,30 +214,8 @@ box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
 }
 
 .heading{
-  /*text-align: center;*/
+  text-align: center;
 }
-
-.section__valentine{
-padding: 10px 0;
-height: calc(50vh - 40px);
-/*display: flex;*/
--webkit-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
--moz-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
-box-shadow: 1px 4px 34px -1px rgba(99,82,99,0.96);
-}
-
-.split4{
-  display: flex;
-  align-items: center;
-  background-image: url('./couple.jpg');
-  background-size: cover;
-  background-position: 100%;
-}
-
-
-nie zroniony css do valentine
-
-
 
 .section__footer{
   padding: 10px 0;
@@ -316,7 +238,7 @@ nie zroniony css do valentine
     align-items: center;
 
 }
-.textstyle {
+.textfoot {
   color: black;
   font-family: Lato,Helvetica,Arial,sans-serif;
   float: left;
