@@ -18,11 +18,12 @@
   left: 0;
   right: 0;
   z-index: 9;
-  padding: 25px;
-  margin: 0;
+  padding: 40px 80px;
+  margin: 0 auto;
   list-style: none;
   display: flex;
   background-color: transparent;
+  justify-content: space-around;
   width: calc(100%vw-20px);
 }
 .navigation{
